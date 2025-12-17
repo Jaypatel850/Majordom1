@@ -79,4 +79,5 @@ body main .fullelems {
   height: 100%;
   width: 100%;
   background-color: var(--c1);
+  display: none;
 }/*# sourceMappingURL=style.css.map */
