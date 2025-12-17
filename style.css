@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* h1 {
+  color: var(--c4);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --c1: rgb(34, 40, 49);
+  --c2: rgb(57, 62, 70);
+  --c3: rgb(0, 173, 181);
+  --c4: rgb(238, 238, 238);
+}
+
+body main {
+  height: 100%;
+  width: 100%;
+  background-color: var(--c1);
+}
+body main section.Allelems {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 2rem;
+}
+body main section.Allelems .elem {
+  height: 25rem;
+  width: 20rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2rem;
+  transition: transform 0.2s ease-in-out;
+}
+body main section.Allelems .elem img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main section.Allelems .elem h1 {
+  position: absolute;
+  bottom: 2.5%;
+  right: 7.5%;
+  font-family: Montserrat;
+  border-bottom: solid 2px red;
+  border-width: 0px;
+  transition: all 0.2s linear;
+}
+body main section.Allelems .elem h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #00ADB5;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+body main section.Allelems .elem h1:hover::after {
+  transform: scaleX(1);
+}
+body main section.Allelems .elem:active {
+  transform: scale(0.98);
+}
+body main .fullelems {
+  height: 100%;
+  width: 100%;
+  background-color: var(--c1);
+}/*# sourceMappingURL=style.css.map */
