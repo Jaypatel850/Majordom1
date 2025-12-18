@@ -98,8 +98,9 @@ body main .fullelems .closebtn {
   border-radius: 50%;
 }
 body main .fullelems.todofullpage #maincontainer {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
+  margin: auto;
   background-color: red;
   display: flex;
   align-items: center;
