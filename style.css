@@ -80,4 +80,6 @@ body main .fullelems {
   width: 100%;
   background-color: var(--c1);
   display: none;
+  position: absolute;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
