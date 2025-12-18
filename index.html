@@ -44,8 +44,30 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
             <div id="maincontainer">
-                <div class="taskadder"></div>
-                <div class="addlist"></div>
+                <div class="taskadder">
+                    <form class="Taskform">
+                        <h3>Add task</h3>
+                        <input type="text" placeholder="Add Task">
+                        <textarea name="taskDescription" id="taskDescription" placeholder="Task Description" rows="4"
+                            mandatory></textarea>
+                        <div id="imp">
+                            <input type="checkbox" name="imp" id="impcheckbox">
+                            <label for="imp">Mark as important</label>
+                        </div>
+                        <button id="Adder">Add Task</button>
+                    </form>
+                </div>
+                <div class="addlist">
+                    <div class="task">
+                        <div class="taskdetails">
+                            <h1>Gandu</h1>
+                        </div>
+                        <div id="controlsbutton">
+                            <button id="Taskhandler" class="cbutton">Mark as completed</button>
+                            <button id="Taskdeleter" class="cbutton">Delete</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="fullelems pomodorofullpage" id="1">
