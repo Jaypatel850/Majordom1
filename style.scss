@@ -46,6 +46,7 @@ body {
                 position: relative;
                 border-radius: 2rem;
                 transition: transform 0.2s ease-in-out;
+                cursor: pointer;
 
                 img {
                     height: 100%;
@@ -93,6 +94,38 @@ body {
             display: none;
             position: absolute;
             top: 0;
+            
+            
+            
+            .closebtn{
+                position: absolute;
+                top: 2%;
+                right: 2%;
+                background: none;
+                border: none;
+                background-color: var(--c3);
+                font-size: 2rem;
+                color: var(--c4);
+                cursor: pointer;
+                padding: 0.5rem;
+                border-radius: 50%;
+            }
+        }
+        .fullelems.todofullpage{
+            
+            #maincontainer{
+                height: 100%;
+                width: 100%;
+                background-color: red;
+                display: flex;
+                align-items: center;
+
+                .taskadder{
+                    height: 90%;
+                    width: 35%;
+                    background-color: yellow;
+                }
+            }
         }
     }
 }

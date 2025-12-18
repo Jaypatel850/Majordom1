@@ -41,6 +41,7 @@ body main section.Allelems .elem {
   position: relative;
   border-radius: 2rem;
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 body main section.Allelems .elem img {
   height: 100%;
@@ -82,4 +83,29 @@ body main .fullelems {
   display: none;
   position: absolute;
   top: 0;
+}
+body main .fullelems .closebtn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background: none;
+  border: none;
+  background-color: var(--c3);
+  font-size: 2rem;
+  color: var(--c4);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+body main .fullelems.todofullpage #maincontainer {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+body main .fullelems.todofullpage #maincontainer .taskadder {
+  height: 90%;
+  width: 35%;
+  background-color: yellow;
 }/*# sourceMappingURL=style.css.map */

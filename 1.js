@@ -7,3 +7,8 @@ cardselem.forEach(function(card) {
         fullelems[card.id].style.display = 'block';
     });
 });
+closebtn.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        fullelems[btn.id].style.display = 'none';
+    });
+});
